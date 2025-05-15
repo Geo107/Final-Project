@@ -1,9 +1,7 @@
-````markdown
 # 🧠🖼️ AI Steganography Tool
 
 A powerful and user-friendly steganography tool that allows you to securely hide encrypted messages inside AI-generated images. This project combines cutting-edge AI image generation with classic steganography and encryption techniques, all wrapped in a simple Tkinter GUI.
 
----
 
 ## 🚀 Features
 
@@ -12,7 +10,6 @@ A powerful and user-friendly steganography tool that allows you to securely hide
 - 🧬 **Steganography with LSB**: Hides encrypted messages using **Least Significant Bit (LSB)** technique.
 - 🖥️ **Tkinter GUI**: User-friendly interface for encryption, decryption, and image generation.
 
----
 
 ## 🛠️ Tech Stack
 
@@ -42,8 +39,6 @@ A powerful and user-friendly steganography tool that allows you to securely hide
 
    * The tool extracts the hidden bits from the image and decrypts them using the AES key.
 
----
-
 ## ⚙️ Usage
 
 ### 1. Run the Application
@@ -63,12 +58,11 @@ python main.py
 * Upload the image with the hidden message.
 * Enter the correct key and click `Extract`.
 
----
 
 ## 🔒 Security Note
 
 * AES-128/256 is used for robust encryption.
 * Even if someone extracts the hidden message via LSB, they cannot read it without the correct key.
 
----
+
 
