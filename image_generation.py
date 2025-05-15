@@ -5,7 +5,7 @@ import cv2
 from io import BytesIO
 
 # Your Hugging Face API token
-api_token = "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"
+api_token = ""
 headers = {"Authorization": f"Bearer {api_token}"}
 api_url = "https://api-inference.huggingface.co/models/CompVis/stable-diffusion-v1-4"
 
